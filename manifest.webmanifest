@@ -1,0 +1,1 @@
+{"name":"Ars Fumi","short_name":"Ars Fumi","description":"A local-first hookah science and recipe companion.","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#0b1118","theme_color":"#0d1620","icons":[{"src":"assets/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"assets/icon-512.png","sizes":"512x512","type":"image/png"}]}
