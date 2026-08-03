@@ -1,7 +1,7 @@
-# 0.3.0
+# 0.4.0
 
-- Added complete Recipes module prototype.
-- Added full-page parchment visual identity while retaining the shared Ars Fumi shell.
-- Added family search, status filters, version history, current-version selection, recipe development, rename/archive controls, and local cover photos.
-- Science records promoted as Experiment, Candidate, or Recipe now appear automatically in the Formula Book.
-- Updated cache and build labels.
+- Added full People / Flavor Profiles module
+- Added profile photos, preference stats, ranked favorites, search, add/edit/delete
+- Added Richard as the default self profile for existing empty People collections
+- Added restrained taped/tilted Formula Book cover-photo treatment
+- Preserved the local-storage key and existing Science/Recipe data

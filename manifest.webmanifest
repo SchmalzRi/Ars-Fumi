@@ -1,7 +1,7 @@
 {
   "name": "Ars Fumi 0.3.0",
   "short_name": "Ars Fumi",
-  "description": "A local-first hookah science and recipe companion.",
+  "description": "Science, recipes, and playful preference profiles for hookah sessions.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
