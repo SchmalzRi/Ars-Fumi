@@ -1,10 +1,5 @@
-# Ars Fumi 0.4.4 — People Light-Mode Repair
+# Ars Fumi 0.5.0 — Statistics Beta
 
-This build keeps the 0.4.3 People interactions and autocomplete intact while rebuilding the People module's light palette for legibility.
+Stage 4 adds the search-first Research Index while preserving Science, Formula Book, People, local data, and backups.
 
-## Changes
-- Muted green-grey People canvas in Light Mode
-- Darker text and clearer hierarchy on profile cards
-- Stronger contrast for stats, favorites, controls, and dialogs
-- Dark Mode deliberately unchanged
-- Storage schema and local data remain compatible
+Upload all files in this folder to the root of the existing GitHub Pages repository.
