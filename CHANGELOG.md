@@ -1,5 +1,14 @@
 # Changelog
 
+
+## 0.6.2 — Friendly Flavor Separators
+
+- Changed tobacco examples to the keyboard-friendly `Brand: Flavor` format.
+- Accepted both `:` and a normal spaced ` - ` as brand/flavor separators.
+- Treated colon, normal hyphen, en dash, and em dash forms as equivalent for matching and duplicate prevention.
+- Canonicalized manually typed Science and People flavor entries against the existing catalogue before saving.
+- Preserved the display spelling of existing canonical entries and kept Schema 2 unchanged.
+
 ## 0.6.1 — Data Stewardship
 
 - Completed the dedicated Settings and data-management pass.
