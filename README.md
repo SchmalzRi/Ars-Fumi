@@ -1,3 +1,3 @@
-# Ars Fumi 0.4.0 — People Beta
+# Ars Fumi 0.4.1 — People hotfix
 
-Module 3 adds playful, photo-led People profiles with preference stats and ranked recipe/tobacco favorites. The Science and Formula Book modules remain functional.
+GitHub Pages-ready build. Replace the existing repository files with this folder's contents. Existing local data remains compatible.

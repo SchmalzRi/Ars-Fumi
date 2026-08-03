@@ -1,10 +1,10 @@
-# Update on GitHub Pages
+# Updating GitHub Pages
 
-1. Export a JSON backup from Settings.
-2. Replace the repository-root files with the contents of this folder.
-3. Commit and wait for GitHub Pages to deploy.
-4. Open the normal Pages URL in Safari and refresh once.
+1. Export a JSON backup from Ars Fumi as a precaution.
+2. Replace the files in your repository root with the contents of this folder.
+3. Wait for GitHub Pages to redeploy.
+4. Open the normal GitHub Pages URL once in Safari and refresh.
 5. Fully close and reopen the Home Screen app.
-6. Confirm **Ars Fumi 0.4.0** in Settings.
+6. In Settings, verify **Installed build: Ars Fumi 0.4.1**.
 
-The storage key is unchanged, so existing Science records and Formula Book families should remain available at the same URL.
+The storage key and schema are unchanged, so your existing sessions, recipes, and people data remain available.

@@ -1,7 +1,7 @@
-# 0.4.0
+# Ars Fumi 0.4.1
 
-- Added full People / Flavor Profiles module
-- Added profile photos, preference stats, ranked favorites, search, add/edit/delete
-- Added Richard as the default self profile for existing empty People collections
-- Added restrained taped/tilted Formula Book cover-photo treatment
-- Preserved the local-storage key and existing Science/Recipe data
+- Removed the explanatory paragraphs under the Recipes and People module headers.
+- Fixed People actions with robust event delegation.
+- Added a Safari/iPhone-safe modal fallback for Add, Open, Edit, and Close profile actions.
+- Added explicit button types inside profile dialogs to prevent accidental form submission.
+- Preserved the existing storage schema and data key.
