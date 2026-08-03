@@ -1,10 +1,13 @@
-# Ars Fumi 0.5.0
+# Changelog
 
-- Added the complete Statistics / Research Index module.
-- Search across sessions, recipe families, people, equipment, notes, names, and hidden references.
-- Added rating queries such as `Overall > 8` and `Cooling <= 5`.
-- Added contextual summary metrics only after a search.
-- Added filters for Science, Recipes, People, and Equipment.
-- Added two-session comparison showing only differences.
-- Added distinct editorial light and dark Statistics themes.
-- Kept the existing local-storage schema and data compatibility.
+## 0.6.1 — Data Stewardship
+
+- Completed the dedicated Settings and data-management pass.
+- Formally locked the current persistent structure as Schema 2.
+- Added full backup metadata and archive summaries.
+- Added pre-import validation, Merge/Replace choices, and automatic pre-import recovery snapshots.
+- Added visible archive-health, storage-size, and persistence checks.
+- Added canonical tobacco/flavor catalogue management with reference-safe renaming and autocomplete-only removal.
+- Added conservative duplicate-flavor consolidation.
+- Added typed confirmation for complete archive reset.
+- Kept the existing storage key and data compatibility.

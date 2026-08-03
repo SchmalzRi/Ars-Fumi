@@ -1,7 +1,7 @@
 {
-  "name": "Ars Fumi 0.5.0",
+  "name": "Ars Fumi 0.6.1",
   "short_name": "Ars Fumi",
-  "description": "Science, recipes, people, and search-first statistics for hookah sessions.",
+  "description": "Local-first hookah science with protected backups, recovery, recipes, people, and research search.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
