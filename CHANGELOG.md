@@ -1,7 +1,14 @@
+## 0.6.3 — People Edit Hotfix
+
+- Fixed the Edit button on People cards being covered by the card’s decorative overlay.
+- Decorative card graphics now ignore pointer input.
+- Profile action buttons now sit in an explicit interactive layer and use `type="button"`.
+- No schema or archive-data changes.
+
 # Changelog
 
 
-## 0.6.2 — Friendly Flavor Separators
+## 0.6.3 — Friendly Flavor Separators
 
 - Changed tobacco examples to the keyboard-friendly `Brand: Flavor` format.
 - Accepted both `:` and a normal spaced ` - ` as brand/flavor separators.

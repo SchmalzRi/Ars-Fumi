@@ -1,4 +1,4 @@
-# Ars Fumi 0.6.2 — Friendly Flavor Separators
+# Ars Fumi 0.6.3 — Friendly Flavor Separators
 
 This build completes the Settings and data-management pass before the first genuine-session beta.
 
@@ -21,6 +21,6 @@ Settings now manages equipment and canonical tobacco/flavor names. Renaming a fl
 The storage key remains `arsFumi.v0.1.data`, and Schema 2 remains unchanged. Updating at the same GitHub Pages address preserves existing 0.6.0 data. Export a backup before replacing files.
 
 
-## 0.6.2 separator handling
+## 0.6.3 separator handling
 
 Tobacco names can now use `Brand: Flavor`, `Brand - Flavor`, or the older long-dash form. Ars Fumi treats these separators as equivalent for autocomplete, duplicate detection, People favorites, Science records, imports, and catalogue management. The visible spelling of an existing canonical entry is preserved.
