@@ -1,11 +1,14 @@
-# Updating GitHub Pages to Ars Fumi 0.6.3
+# Ars Fumi 0.6.4 — Brand & Flavor Update
 
-1. Export a full JSON backup from the currently installed build.
-2. Extract `Ars_Fumi_0.6.3_Friendly_Separators.zip`.
-3. Replace the repository-root files with the **contents** of the extracted `ars_fumi_0_6_1` folder.
-4. Commit and wait for GitHub Pages to redeploy.
-5. Open the normal Pages URL in Safari and refresh once.
-6. Fully close and reopen the Home Screen app.
-7. Confirm **Ars Fumi 0.6.3** and **Schema 2 · locked** in Settings.
+Built directly on the 0.6.3 People Edit Hotfix.
 
-The storage key and schema remain unchanged, so existing records at the same Pages address should remain in place.
+## Added
+- Separate **Brand** and **Flavor** fields for single tobaccos and mixes.
+- Brand autocomplete from saved catalogue entries.
+- Flavor autocomplete filtered by the selected brand when possible.
+- Existing combined names are split automatically in the editor and remain compatible with records, recipes, statistics, profile favorites, imports, and exports.
+
+## Fixed
+- Autocomplete is limited to six suggestions.
+- Suggestions open beneath the active field and only move above it when there is not enough visible space, so typed text remains visible.
+- Preserves all data-stewardship and People-editing changes from 0.6.3.
