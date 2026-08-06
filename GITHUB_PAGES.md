@@ -1,14 +1,14 @@
-# Ars Fumi 0.6.4 — Brand & Flavor Update
+# Deploying Ars Fumi 0.6.4 to GitHub Pages
 
-Built directly on the 0.6.3 People Edit Hotfix.
+This package is deliberately deployment-flat: `index.html`, `sw.js`, `manifest.webmanifest`, and the `assets` folder belong directly in the repository root used by GitHub Pages.
 
-## Added
-- Separate **Brand** and **Flavor** fields for single tobaccos and mixes.
-- Brand autocomplete from saved catalogue entries.
-- Flavor autocomplete filtered by the selected brand when possible.
-- Existing combined names are split automatically in the editor and remain compatible with records, recipes, statistics, profile favorites, imports, and exports.
+1. Export a JSON backup from the currently installed Ars Fumi build.
+2. Extract this ZIP.
+3. Upload **all files and the `assets` folder inside the extracted folder** to the GitHub Pages publishing root.
+4. Confirm that GitHub shows `index.html` directly at repository root, not inside another `ars_fumi_0_6_4` folder.
+5. Commit the changes and check the repository's Pages/Actions status.
+6. Open the Pages URL in a normal browser tab and hard-refresh once.
+7. Fully close and reopen the Home Screen app.
+8. Confirm **Ars Fumi 0.6.4** is shown in the app.
 
-## Fixed
-- Autocomplete is limited to six suggestions.
-- Suggestions open beneath the active field and only move above it when there is not enough visible space, so typed text remains visible.
-- Preserves all data-stewardship and People-editing changes from 0.6.3.
+The application code and storage schema are unchanged. The `.nojekyll` file only tells GitHub Pages to publish the static files exactly as supplied.
