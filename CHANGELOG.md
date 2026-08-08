@@ -1,14 +1,19 @@
-# Ars Fumi 0.6.4 — Brand & Flavor Update
+# Ars Fumi 0.6.5 — Autocomplete & Editable Science
 
-Built directly on the 0.6.3 People Edit Hotfix.
-
-## Added
-- Separate **Brand** and **Flavor** fields for single tobaccos and mixes.
-- Brand autocomplete from saved catalogue entries.
-- Flavor autocomplete filtered by the selected brand when possible.
-- Existing combined names are split automatically in the editor and remain compatible with records, recipes, statistics, profile favorites, imports, and exports.
+Built directly on the 0.6.4 Brand & Flavor Update.
 
 ## Fixed
-- Autocomplete is limited to six suggestions.
-- Suggestions open beneath the active field and only move above it when there is not enough visible space, so typed text remains visible.
-- Preserves all data-stewardship and People-editing changes from 0.6.3.
+- Restored/hardened tobacco autocomplete on desktop and mobile.
+- Brand suggestions come from the canonical catalogue.
+- Flavor suggestions are filtered to the selected brand, while still allowing new manual entries.
+- Selecting a different saved brand clears an incompatible flavor to reduce accidental typos/mismatches.
+
+## Added
+- Science records now remain fully accessible in the recent-record archive instead of only showing the latest eight.
+- Science record notes are visible directly in the archive.
+- Existing Science records can be loaded for editing and saved back to the same record/reference instead of creating a duplicate.
+- New **Attention Required** 1–10 rating for how much active heat/coal management a tobacco needs.
+
+## Preserved
+- Existing Schema 2 and local data format remain compatible.
+- Existing recipes, People, Statistics, equipment catalogues, import/export, and backups remain intact.
